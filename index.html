@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sekolah</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand fs-3 fw-bold text-white d-flex gap-2" href="#">
+          <img src="img/sulawesi-barat.svg" alt="Logo" width="35" height="42" class="d-inline-block align-text-top">
+          SMKN1 KALUKKU
+        </a>
+        <!-- <a class="navbar-brand fs-3 fw-bold text-white" href="#">SMKN1 KALUKKU</a> -->
+        <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto linknav d-flex text-center gap-4">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#profil">PROFIL</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownData" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DATA
+              </a>
+              <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownData">
+                <li><a class="dropdown-item" href="#data1">GURU</a></li>
+                <li><a class="dropdown-item" href="#data2">MAHASISWA</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownInfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                INFORMASI
+              </a>
+              <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownInfo">
+                <li><a class="dropdown-item" href="#info1">PENGUMUMAN</a></li>
+                <li><a class="dropdown-item" href="#info2">JADWAL UJIAN</a></li>
+                <li><a class="dropdown-item" href="#info3">AGENDA KEGIATAN</a></li>
+                <li><a class="dropdown-item" href="#info3">EKSTRAKURIKULER</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+
+      <section class="hero">
+        <div class="container">
+            <div class="hero-box d-flex align-item-center justify-content-between flex-md-row flex-column gap-md-0 gap-5">
+                <div class="box">
+                    <h1 class="fw-bold mb-3 nmsch">SMKN1 <br> KALUKKU</h1>
+                  <h2 class="slg mt-4" style="color: #646262;">Membentuk Generasi Cerdas dan Berkarakter</h2>
+                  <p class="lh-lg mb-4 infosch">"SMKN1 Kalukku menyediakan program keahlian seperti teknik komputer dan desain grafis untuk mempersiapkan siswa memasuki dunia kerja dengan keterampilan praktis."</p>
+                  <div>
+                    <a class="btn btn-danger" href="#daftar">DAFTAR SEKARANG</a>
+                  </div>
+                </div>
+                <div class="box">
+                  <img src="img/learning.svg" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="profil">
+        <h2 class="text-center pb-4">PROFIL VIDEO</h2>
+        <div class="embed-responsive embed-responsive-21by9 d-flex justify-content-center">
+          <iframe class="embed-responsive-item"  width="80%" height="455" src="https://www.youtube.com/embed/rAqgwURTWfk?si=Id-Zn5lMOsyCV5O-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+
+
+      <!-- <section class="info-program">
+        <div class="container">
+          <h1 class="text-center fw-bold border-bottom pb-2 border-4">PENGHARGAAN SEKOLAH</h1>
+          <div class="wrapper-card mt-5 d-flex justify-content-around">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="img/card.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-start">Siswa SMKN1 Kalukku Meraih Juara 3 pada Lomba 02SN tingkat Nasional.</p>
+                <a href="#" class="btn btn-primary">Baca Berita</a>
+              </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+              <img src="img/card.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-start">SMKN1 Kalukku meraih Akreditasi A dengan Total score 99.</p>
+                <a href="#" class="btn btn-primary mt-4">Baca Berita</a>
+              </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+              <img src="img/card.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-start">Siswa SMKN1 Kalukku Meraih Juara 1 pada Lomba Jurnal Ilmiah tingkat Nasional.</p>
+                <a href="#" class="btn btn-primary">Baca Berita</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="penghargaan">
+        <div class="container">
+          <h1 class="text-center fw-bold border-bottom pb-2 border-4">PENGHARGAAN SEKOLAH</h1>
+          <div class="row mt-5">
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <img src="img/card.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-start">Siswa SMKN1 Kalukku Meraih Juara 3 pada Lomba 02SN tingkat Nasional.</p>
+                  <a href="#" class="btn btn-primary">Baca Berita</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <img src="img/card.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-start">SMKN1 Kalukku meraih Akreditasi A dengan Total score 99.</p>
+                  <a href="#" class="btn btn-primary">Baca Berita</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <img src="img/card.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-start">Siswa SMKN1 Kalukku Meraih Juara 1 pada Lomba Jurnal Ilmiah tingkat Nasional.</p>
+                  <a href="#" class="btn btn-primary">Baca Berita</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
